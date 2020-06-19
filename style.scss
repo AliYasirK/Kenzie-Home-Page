@@ -1,6 +1,11 @@
+$_quotes_color : red;
+  
+
+
 body {
   font-family: "Nunito", sans-serif;
   text-align: center;
+  
 }
 
 .hero {
@@ -65,8 +70,10 @@ signup-form form input[type="submit"] {
 }
 
 .quotes {
+  
   .quotes_one,
   .quotes_two {
+    color: $_quotes_color;
     display: grid;
     grid-template-columns: 100px 1fr;
 

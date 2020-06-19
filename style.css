@@ -76,6 +76,7 @@ signup-form form input[type="submit"] {
 
 .quotes .quotes_one,
 .quotes .quotes_two {
+  color: red;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 100px 1fr;
